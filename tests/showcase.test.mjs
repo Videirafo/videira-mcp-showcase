@@ -82,6 +82,15 @@ test('interaction changes mock stage and EN/PT language without external request
   assert.equal(mockDocument.documentElement.lang,'pt-BR');
 });
 
+test('share image is a compact PNG with social dimensions',()=>{
+  const png=readFileSync(new URL('../docs/og-card.png',import.meta.url));
+  assert.equal(png.subarray(0,8).toString('hex'),'89504e470d0a1a0a');
+  assert.equal(png.readUInt32BE(16),1200);
+  assert.equal(png.readUInt32BE(20),630);
+  assert.ok(png.length<350000,'social preview must be lightweight');
+  assert.match(html,/og-card\.png/);
+});
+
 test('no credential-like secret literals embedded in public artifacts',()=>{
   const all=['README.md','SECURITY.md','docs/index.html','docs/styles.css','docs/app.js','docs/logo.svg','docs/og-card.svg'].map(read).join('\n');
   for(const pattern of [

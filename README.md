@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/og-card.svg" alt="Videira MCP — Control with Proof" width="100%" />
+  <img src="./docs/og-card.png" alt="Videira MCP — Control with Proof" width="100%" />
 </p>
 
 <h1 align="center">Videira MCP · Control with Proof</h1>
