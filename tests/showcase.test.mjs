@@ -99,6 +99,8 @@ test('showcase reserves branding while public operational core remains private',
   assert.match(read('SECURITY.md'),/operational project is maintained separately/);
 });
 
+test('public community link is correctly isolated from operational backend',()=>{assert.match(html,/https:\/\/github.com\/Videirafo\/videira-mcp-community/);assert.match(read('README.md'),/source-available/);assert.match(html,/community_link/);});
+
 test('no credential-like secret literals embedded in public artifacts',()=>{
   const all=['README.md','SECURITY.md','docs/index.html','docs/styles.css','docs/app.js','docs/logo.svg','docs/og-card.svg'].map(read).join('\n');
   for(const pattern of [

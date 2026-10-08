@@ -65,6 +65,12 @@ Quatro fontes públicas inspiram a metodologia de trabalho; suas ideias são ada
 
 Os SHAs de referência adotados no piloto do núcleo estão documentados no repositório de engenharia privado. Esta vitrine apenas descreve a metodologia.
 
+## Community Preview — código demonstrativo público
+
+A [edição comunitária source-available](https://github.com/Videirafo/videira-mcp-community) traz um **servidor MCP stdio de exemplo**, com histórico novo, duas ferramentas somente leitura, testes automatizados e manifesto SHA-256. [Release v0.1.0](https://github.com/Videirafo/videira-mcp-community/releases/tag/v0.1.0).
+
+**Não é o núcleo operacional**, não executa comandos remotos nem compartilha código, chaves ou infraestrutura privada.
+
 ## Segurança
 
 O projeto enfatiza controles técnicos verificáveis; **nenhum software deve ser apresentado como impossível de comprometer**.
