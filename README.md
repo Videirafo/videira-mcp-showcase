@@ -17,7 +17,7 @@
   <a href="#engineering-dna">4 padrões</a>
 </p>
 
-<p align="center"><strong>STATIC SHOWCASE</strong> · MCP · Node.js / TypeScript architecture · MIT (showcase only)</p>
+<p align="center"><strong>STATIC SHOWCASE</strong> · MCP · Node.js / TypeScript architecture · © Videira · Rights reserved</p>
 
 ---
 

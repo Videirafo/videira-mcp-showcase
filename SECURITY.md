@@ -15,7 +15,7 @@ private Videira MCP production server or any runnable device-control component.
 - The demo's mock PASS output must never be used as evidence that real
   validation, authorization or deployment occurred.
 - The operational project is maintained separately and is not licensed,
-  redistributed or made public by this showcase's MIT license.
+  redistributed or made public by this showcase's public visibility.
 
 ## Report a problem
 
