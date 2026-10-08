@@ -91,6 +91,14 @@ test('share image is a compact PNG with social dimensions',()=>{
   assert.match(html,/og-card\.png/);
 });
 
+test('showcase reserves branding while public operational core remains private',()=>{
+  const rights=read('LICENSE');
+  assert.match(rights,/All rights reserved/);
+  assert.match(rights,/does not retroactively revoke licenses previously granted/);
+  assert.match(read('README.md'),/Rights reserved/);
+  assert.match(read('SECURITY.md'),/operational project is maintained separately/);
+});
+
 test('no credential-like secret literals embedded in public artifacts',()=>{
   const all=['README.md','SECURITY.md','docs/index.html','docs/styles.css','docs/app.js','docs/logo.svg','docs/og-card.svg'].map(read).join('\n');
   for(const pattern of [
