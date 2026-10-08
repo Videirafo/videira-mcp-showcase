@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src &#39;none&#39;; script-src &#39;self&#39;; style-src &#39;self&#39;; img-src &#39;self&#39; data:; font-src &#39;self&#39;; connect-src &#39;none&#39;; object-src &#39;none&#39;; base-uri &#39;none&#39;; form-action &#39;none&#39;; upgrade-insecure-requests">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#11111b">
+  <meta name="description" content="Videira MCP: plano de controle para agentes de IA, GitHub, repositórios e releases governadas. Explore uma demonstração interativa e segura.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Videira MCP — Control with Proof">
+  <meta property="og:description" content="From intent to verified execution. A secure, governed AI engineering control plane.">
+  <meta property="og:image" content="https://videirafo.github.io/videira-mcp-showcase/og-card.svg">
+  <meta property="og:url" content="https://videirafo.github.io/videira-mcp-showcase/">
+  <meta name="color-scheme" content="dark light">
+  <link rel="icon" href="./logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Videira MCP — Control with Proof</title>
+</head>
+<body>
+  <a class="skip" href="#main">Pular para o conteúdo</a>
+  <div class="mesh mesh-a" aria-hidden="true"></div><div class="mesh mesh-b" aria-hidden="true"></div>
+  <header class="topbar shell">
+    <a class="brand" href="#home" aria-label="Videira MCP — início">
+      <img src="./logo.svg" width="42" height="42" alt="">
+      <span><strong>VIDEIRA</strong><small>MCP / CONTROL PLANE</small></span>
+    </a>
+    <nav class="navigation" aria-label="Navegação principal">
+      <a href="#platform" data-i18n="nav_platform">Plataforma</a>
+      <a href="#demo" data-i18n="nav_demo">Demo</a>
+      <a href="#principles" data-i18n="nav_principles">Princípios</a>
+      <a href="#security" data-i18n="nav_security">Segurança</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="languageToggle" class="language" aria-label="Change language to English" title="Switch language">EN</button>
+      <a class="button button-small button-outline" href="https://github.com/Videirafo" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="main">
+    <section id="home" class="hero shell">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse-dot"></span><span data-i18n="hero_eyebrow">ENGENHARIA DE IA • GOVERNANÇA POR EVIDÊNCIAS</span></div>
+        <h1><span data-i18n="hero_a">Inteligência que executa.</span><br><em data-i18n="hero_b">Controle que comprova.</em></h1>
+        <p class="lead" data-i18n="hero_lead">Um plano de controle para conectar agentes de IA, repositórios e operações — com autenticação, limites explícitos, revisão humana e releases verificáveis.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#demo"><span data-i18n="hero_cta">Explorar demo interativa</span><span aria-hidden="true">↗</span></a>
+          <a class="button button-outline" href="#platform"><span data-i18n="hero_secondary">Conhecer a arquitetura</span><span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-note"><span class="status-indicator"></span><span data-i18n="hero_note">Demonstração local e simulada. Nenhuma conexão à VPS.</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Representação gráfica ilustrativa do pipeline de governança">
+        <div class="visual-top"><span class="window-dots"><i></i><i></i><i></i></span><span>VIDEIRA / ENGINEERING OS</span><span class="visual-build">VISUAL PREVIEW</span></div>
+        <div class="visual-grid">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="central-node"><img src="./logo.svg" width="60" height="60" alt=""><span>VIDEIRA MCP</span><small>CONTROL PLANE</small></div>
+          <div class="satellite sat-top"><span class="glyph">◇</span><span>AI AGENTS</span></div>
+          <div class="satellite sat-right"><span class="glyph">⌘</span><span>GIT / CI</span></div>
+          <div class="satellite sat-bottom"><span class="glyph">◈</span><span>TRUST GATE</span></div>
+          <div class="satellite sat-left"><span class="glyph">▣</span><span>DEVICES</span></div>
+        </div>
+        <div class="visual-bottom"><span><span class="tiny-green"></span> POLICY FIRST</span><span>EXACT SHA • HUMAN REVIEW</span></div>
+      </div>
+    </section>
+    <section class="proofbar shell" aria-label="Pilares técnicos">
+      <div><strong>OAuth 2.1</strong><span>IDENTITY</span></div>
+      <div><strong>GitHub App</strong><span>REPOSITORIES</span></div>
+      <div><strong>Exact SHA</strong><span>RELEASES</span></div>
+      <div><strong>Trust Gate</strong><span>VERIFICATION</span></div>
+    </section>
+    <section id="platform" class="section shell">
+      <div class="section-heading"><div class="overline">01 / PLATFORM</div><h2 data-i18n="platform_title">Da intenção ao resultado. <span class="muted">Sem pular etapas.</span></h2><p data-i18n="platform_intro">A arquitetura reúne ferramentas de engenharia, integração GitHub, dispositivos autorizados e controles de publicação em um mesmo fluxo auditável.</p></div>
+      <div class="feature-grid">
+        <article class="feature feature-large"><div class="feature-mark">01 <span>↗</span></div><div class="feature-icon">⌘</div><h3 data-i18n="feat1">Orquestração de engenharia</h3><p data-i18n="feat1_p">Inspeção de projetos, diagnóstico, edição controlada e testes antes de qualquer promoção.</p><div class="chips"><span>REPO INSPECT</span><span>CI</span><span>TYPECHECK</span></div></article>
+        <article class="feature"><div class="feature-mark">02 <span>↗</span></div><div class="feature-icon">⛨</div><h3 data-i18n="feat2">Segurança por padrão</h3><p data-i18n="feat2_p">Permissões declaradas, autenticação, trilhas de auditoria e limites para operações sensíveis.</p><div class="chips"><span>OAUTH</span><span>SCOPES</span></div></article>
+        <article class="feature"><div class="feature-mark">03 <span>↗</span></div><div class="feature-icon">◇</div><h3 data-i18n="feat3">Releases com evidências</h3><p data-i18n="feat3_p">Validação por commit exato, smoke tests e rollback governado por políticas.</p><div class="chips"><span>EXACT SHA</span><span>SMOKE</span></div></article>
+        <article class="feature"><div class="feature-mark">04 <span>↗</span></div><div class="feature-icon">▦</div><h3 data-i18n="feat4">Acesso multicliente</h3><p data-i18n="feat4_p">Integração MCP para clientes compatíveis e dispositivos explicitamente autorizados.</p><div class="chips"><span>MCP</span><span>DEVICE</span></div></article>
+      </div>
+    </section>
+    <section id="demo" class="section demo-section shell">
+      <div class="section-heading"><div class="overline">02 / INTERACTIVE LAB</div><h2 data-i18n="demo_title">Veja o fluxo. <span class="muted">Sem risco real.</span></h2><p data-i18n="demo_intro">Esta experiência demonstra apenas estados ilustrativos. Nenhum comando é executado, nenhum token é utilizado e nenhum serviço externo é acessado.</p></div>
+      <div class="demo">
+        <div class="demo-sidebar">
+          <div class="demo-brand"><span class="terminal-icon">⌁</span><div><strong>GOVERNED FLOW</strong><small>SIMULATOR / V1</small></div></div>
+          <div class="demo-label" data-i18n="demo_workflow">ETAPAS DO WORKFLOW</div>
+          <div class="step-picker" role="group" aria-label="Escolher etapa simulada">
+            <button class="step-button active" data-step="discover" aria-pressed="true"><span>01</span><b data-i18n="step_discover">Discover</b><small>→</small></button>
+            <button class="step-button" data-step="validate" aria-pressed="false"><span>02</span><b data-i18n="step_validate">Validate</b><small>→</small></button>
+            <button class="step-button" data-step="review" aria-pressed="false"><span>03</span><b data-i18n="step_review">Review</b><small>→</small></button>
+            <button class="step-button" data-step="release" aria-pressed="false"><span>04</span><b data-i18n="step_release">Release</b><small>→</small></button>
+          </div>
+          <div class="simulation-warning"><span class="warning-dot"></span><span data-i18n="sim_notice">AMBIENTE SIMULADO — SEM BACKEND</span></div>
+        </div>
+        <div class="demo-terminal" aria-live="polite" aria-atomic="true">
+          <div class="terminal-header"><span class="label-icon">&gt;_</span><span id="demoFile">workflow/discover.json</span><span class="terminal-badge">MOCK DATA</span></div>
+          <div class="terminal-body">
+            <div class="comment">// VIDEIRA MCP — SAFE WORKFLOW PREVIEW</div>
+            <div class="terminal-json" id="demoOutput"></div>
+          </div>
+          <div class="terminal-footer"><span id="demoState"><span class="tiny-green"></span> SIMULATED</span><button type="button" id="copyDemo" class="copy-button"><span data-i18n="copy">Copiar JSON</span> <span aria-hidden="true">⧉</span></button></div>
+        </div>
+      </div>
+    </section>
+    <section id="principles" class="section shell">
+      <div class="section-heading"><div class="overline">03 / ENGINEERING DNA</div><h2 data-i18n="principles_title">Quatro referências. <span class="muted">Uma disciplina.</span></h2><p data-i18n="principles_intro">Os padrões abaixo inspiram o método de trabalho. São adaptações conceituais; nenhum plugin de terceiros é executado nesta página.</p></div>
+      <div class="principle-grid">
+        <article class="principle"><span class="pill">01 / PLAN</span><h3>Superpowers</h3><p data-i18n="p1">Especificar, testar primeiro e revisar antes de integrar.</p><a href="https://github.com/obra/superpowers" target="_blank" rel="noopener noreferrer">SOURCE ↗</a></article>
+        <article class="principle"><span class="pill">02 / CLARITY</span><h3>Karpathy Skills</h3><p data-i18n="p2">Mudanças pequenas, hipóteses explícitas e menos complexidade.</p><a href="https://github.com/multica-ai/andrej-karpathy-skills" target="_blank" rel="noopener noreferrer">SOURCE ↗</a></article>
+        <article class="principle"><span class="pill">03 / ACTION</span><h3>I Have ADHD</h3><p data-i18n="p3">Ações objetivas, etapas curtas e progresso legível.</p><a href="https://github.com/ayghri/i-have-adhd" target="_blank" rel="noopener noreferrer">SOURCE ↗</a></article>
+        <article class="principle"><span class="pill">04 / REVIEW</span><h3>Claude Octopus</h3><p data-i18n="p4">Pareceres distintos, divergências explícitas e revisão humana.</p><a href="https://github.com/nyldn/claude-octopus" target="_blank" rel="noopener noreferrer">SOURCE ↗</a></article>
+      </div>
+    </section>
+    <section id="security" class="section security-section shell">
+      <div class="security-content"><div class="overline">04 / TRUST BY DESIGN</div><h2 data-i18n="security_title">Autonomia com limites.<br><span class="muted">Autoridade com provas.</span></h2><p data-i18n="security_copy">O projeto aplica autenticação, escopos e verificações governadas às operações. Segurança é um processo contínuo de teste, auditoria e melhoria — não uma promessa de invulnerabilidade.</p><a class="text-link" href="https://github.com/Videirafo" target="_blank" rel="noopener noreferrer"><span data-i18n="security_link">Conheça os projetos da Videira</span> ↗</a></div>
+      <div class="security-stack"><div class="security-item"><span>01</span><div><strong data-i18n="sec1">Acesso autenticado</strong><small>OAuth / scopes / least privilege</small></div><i>✓</i></div><div class="security-item"><span>02</span><div><strong data-i18n="sec2">Mudanças verificadas</strong><small>CI / review / exact commit</small></div><i>✓</i></div><div class="security-item"><span>03</span><div><strong data-i18n="sec3">Publicação governada</strong><small>Trust Gate / smoke / rollback</small></div><i>✓</i></div><div class="security-item"><span>04</span><div><strong data-i18n="sec4">Demonstração sem credenciais</strong><small>Static files / no API access</small></div><i>✓</i></div></div>
+    </section>
+    <section class="closing shell"><div class="closing-inner"><div class="overline">BUILD WITH INTENT. SHIP WITH PROOF.</div><h2 data-i18n="closing_title">O futuro não é só automatizar.<br><span>É poder confiar no processo.</span></h2><p data-i18n="closing_p">Explore a visão do projeto e acompanhe a evolução do ecossistema Videira.</p><div class="hero-actions"><a class="button button-primary" href="https://github.com/Videirafo" target="_blank" rel="noopener noreferrer"><span data-i18n="closing_cta">Ver projetos no GitHub</span> ↗</a><a class="button button-outline" href="#home"><span data-i18n="closing_top">Voltar ao topo</span> ↑</a></div></div></section>
+  </main>
+  <footer class="footer shell"><div class="footer-brand"><img src="./logo.svg" width="34" height="34" alt=""><span>VIDEIRA <small>/ MCP</small></span></div><p data-i18n="footer_note">Vitrine pública independente. Núcleo operacional e credenciais não incluídos.</p><span>© <span id="year">2026</span> Videira</span></footer>
+  <script src="./app.js" defer></script>
+</body>
+</html>

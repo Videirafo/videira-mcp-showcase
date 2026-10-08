@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#bd93f9"/><stop offset="1" stop-color="#8be9fd"/></linearGradient><radialGradient id="r" cx=".8" cy=".3" r=".7"><stop stop-color="#594581" stop-opacity=".65"/><stop offset="1" stop-color="#11121d" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0b0c15"/><rect width="1200" height="630" fill="url(#r)"/>
+<g opacity=".12" stroke="#bd93f9"><path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200M0 540H1200M120 0V630M240 0V630M360 0V630M480 0V630M600 0V630M720 0V630M840 0V630M960 0V630M1080 0V630"/></g>
+<rect x="80" y="84" width="76" height="76" rx="20" fill="#24243b" stroke="#686190"/><path d="M100 104L118 143L136 104M100 104L118 119L136 104" fill="none" stroke="url(#g)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="177" y="132" fill="#f8f8f2" font-size="30" font-family="Arial,sans-serif" font-weight="700" letter-spacing="7">VIDEIRA MCP</text>
+<text x="80" y="303" fill="#f8f8f2" font-size="75" font-family="Arial,sans-serif" font-weight="800">Control with Proof.</text>
+<text x="83" y="362" fill="#bd93f9" font-size="35" font-family="Arial,sans-serif" font-weight="600">AI engineering, governed by evidence.</text>
+<line x1="80" y1="457" x2="1120" y2="457" stroke="#8be9fd" stroke-opacity=".3"/>
+<text x="80" y="510" fill="#a9a8c4" font-size="23" font-family="monospace">IDENTITY  /  REPOSITORIES  /  TRUST GATE  /  EXACT SHA</text>
+<text x="81" y="560" fill="#50fa9a" font-size="18" font-family="monospace">●  STATIC DEMONSTRATION — NO LIVE OPERATIONS</text></svg>
